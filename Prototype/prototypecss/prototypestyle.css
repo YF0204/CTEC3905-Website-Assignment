@@ -1,0 +1,20 @@
+header.blueheader {
+	background-color: blue;
+	font-family: Calibri;
+	color: white;
+}
+
+footer {
+	background-color: blue;
+	color: white;
+}
+
+li {
+	display: inline-block;
+	text-align: center;
+	list-style-type: none;
+}
+
+a {
+	color: white;
+}
