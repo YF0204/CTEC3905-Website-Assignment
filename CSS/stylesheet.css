@@ -1,0 +1,58 @@
+.container {
+  max-width: 900px;
+  background-color: white;
+  margin: -20px auto 0 auto;
+  line-height: 1.65;
+  padding: 20px 50px;
+  display: flex;
+}
+
+.main {
+  flex: 1;
+}
+
+#welcome {
+	max-width: 800px;
+	background-color: #475eb8;
+	color: white;
+	text-align: center;
+	margin: 40px auto 0 auto;
+	padding: 20px 50px;
+}
+
+body {
+  font-family: Calibri, Helvetica, Arial;
+}
+
+nav {
+	background-color: #475eb8;
+
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	padding: 5px;
+}
+
+nav a:hover {
+	background-color: #555;
+}
+
+@media screen and (min-width: 768px){
+	
+	nav ul{
+		display: flex;
+		justify-content: flex-end;
+	}
+	
+	nav li{
+		flex: 1 1 0;
+	}
+	
