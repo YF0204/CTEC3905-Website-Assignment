@@ -64,7 +64,12 @@ a {
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
-}	
+}
+
+.mainContent img {
+	width: 70%;
+	height: auto;
+}
 
 .content {
 	width: 70%;
