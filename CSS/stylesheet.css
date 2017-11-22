@@ -71,6 +71,25 @@ a {
 	height: auto;
 }
 
+.BackgroundInfo {
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.MyGamingPassion {
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
 .content {
 	width: 70%;
 	float: left;
@@ -105,20 +124,52 @@ a {
 	padding: 2% 3%;
 }
 
-.mainFooter {
+.mainFooterhome {
 	width: 100%;
 	float: left;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	background-color: #475eb8;
-	margin: 2% 0;
+	margin-top: -20%;
 }
 
-.mainFooter p {
+.mainFooterhome p {
 	width: 92%;
 	margin: 2% auto;
 	color: white;
+}
+
+.mainFooterAbout {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #475eb8;
+	margin-top: 0;
+	margin-bottom: 2%;
+}
+
+.mainFooterAbout p {
+	width: 92%;
+	margin: 2% auto;
+	color: white;
+}
+
+.ryu {
+	position: relative;
+	float: right;
+	width: 600px;
+	top: -250px;
+	animation-name: uppercut;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes uppercut{
+	from{transform:translateX(0)}
+	to{transform:translateY(-700px)}
 }
 
 @media only screen and (min-width: 150px) and (max-width: 700px)
