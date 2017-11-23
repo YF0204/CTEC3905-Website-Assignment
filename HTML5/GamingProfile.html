@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>16 BIT - Gaming Profile</title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="../CSS/stylesheet.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script>
+	function save() {
+	var fieldValue = document.getElementById('textfield').value;
+	localStorage.setItem('text', fieldValue);
+	}
+	
+	function load() {
+	var storedValue = localStorage.getItem('text');
+	if(storedValue) {
+	document.getElementById('textfield').value = storedValue;
+	}
+	}
+	
+	function remove() {
+	document.getElementById('textfield').value = ' ';
+	localStorage.removeItem('text');
+	}
+	</script>
+</head>
+
+<body class="body" onload="load()">
+
+<header class="mainHeader">
+	<img src="../WebIMG/Sega-Logo.png">
+	
+	<nav>
+		<ul>
+		 <li><a href="index.html">Home</a></li>
+		 <li><a href="HottestGames.html">Hottest Games</a></li>
+		 <li><a href="Reviews.html">Reviews</a></li>
+		 <li><a href="AboutMe.html">About Me</a></li>
+		 <li><a href="GamingProfile.html">Gaming Profile</a></li>
+		</ul>
+	</nav>
+	</header>
+	
+<div class="AboutMeContent">
+		<div class="AboutMeInfo">
+			<article class="BackgroundInfo">
+				<header>
+					<h2>Create a Gaming Profile</p>
+					<h3>What are your favourite games, what was your first ever console and what games are you playing right now?</h3>
+					<h3>Type in your gaming background here, don't forget to save and update whenever you like.</h3>
+				</header>
+				
+				<form>
+				<input type="text" id="textfield" />
+				<input type="button" value="save" onclick="save()" />
+				<input type="button" value="remove" onclick="remove()" />
+				</form>
+				
+			</article>
+		</div>
+	</div>
+	
+	<footer class="mainFooterAbout">
+	<p>Created by Yaseen Fulat, P15194471, 2017</p>
+	</footer>
+</body>
+</html>
