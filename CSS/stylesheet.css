@@ -90,6 +90,26 @@ a {
 	margin-bottom: 2%;
 }
 
+#searchForm{
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#demo {
+	background-color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
 .content {
 	width: 70%;
 	float: left;
@@ -170,6 +190,22 @@ a {
 @keyframes uppercut{
 	from{transform:translateX(0)}
 	to{transform:translateY(-700px)}
+}
+
+#HQ{
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#War{
+	width: 30%;
+	height: auto;
+}
+
+#Zombies{
+	width: 30%;
+	height: auto;
 }
 
 @media only screen and (min-width: 150px) and (max-width: 700px)
