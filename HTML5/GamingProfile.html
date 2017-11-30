@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body class="body" onload="load()">
+<body class="body">
 
 <header class="mainHeader">
 	<img src="../WebIMG/Sega-Logo.png">
@@ -33,10 +33,11 @@
 					<h3>Type in your gaming background here, don't forget to save and update whenever you like.</h3>
 				</header>
 				
-				<form>
-				<input type="text" id="textfield" placeholder="Favourite game?"/>
-				<input type="button" value="Save" onclick="save()" />
-				<input type="button" value="Remove" onclick="remove()" />
+				<span id="my-name"></span>
+				<form id="get-name" action="#" method="post">
+				<label for="user-name">Enter name:</label>
+				<input type="text" id="user-name" placeholder="Your name?">
+				<input type="submit"><input type="reset" value="Clear">
 				</form>
 				
 			</article>
@@ -46,23 +47,6 @@
 	<footer class="mainFooterAbout">
 	<p>Created by Yaseen Fulat, P15194471, 2017</p>
 	</footer>
-	<script>
-	function save() {
-	let fieldValue = document.getElementById('textfield').value;
-	localStorage.setItem('text', fieldValue);
-	}
-	
-	function load() {
-	let storedValue = localStorage.getItem('text');
-	if (storedValue) {
-	document.getElementById('textfield').value = storedValue;
-	}
-	}
-	
-	function remove() {
-	document.getElementById('textfield').value = ' ';
-	localStorage.removeItem('text');
-	}
-	</script>
+	<script src="../JS/localstorage.js"></script>
 </body>
 </html>
