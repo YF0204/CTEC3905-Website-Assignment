@@ -208,6 +208,38 @@ a {
 	height: auto;
 }
 
+#Story{
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#Alloy{
+	width: 30%;
+	height: auto;
+}
+
+#Bird{
+	width: 30%;
+	height: auto;
+}
+
+#VersusMode{
+	width: 30%;
+	height: auto;
+	margin-left: 5%;
+}
+
+#TekkenLogo{
+	width: 30%;
+	height: auto;
+}
+
+#HWR{
+	width: 30%;
+	height: auto;
+}
+
 @media only screen and (min-width: 150px) and (max-width: 700px)
 {
 	.body {
