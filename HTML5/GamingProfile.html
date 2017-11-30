@@ -6,24 +6,6 @@
 	<meta charset="utf-8"/>
 	<link rel="stylesheet" href="../CSS/stylesheet.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script>
-	function save() {
-	var fieldValue = document.getElementById('textfield').value;
-	localStorage.setItem('text', fieldValue);
-	}
-	
-	function load() {
-	var storedValue = localStorage.getItem('text');
-	if(storedValue) {
-	document.getElementById('textfield').value = storedValue;
-	}
-	}
-	
-	function remove() {
-	document.getElementById('textfield').value = ' ';
-	localStorage.removeItem('text');
-	}
-	</script>
 </head>
 
 <body class="body" onload="load()">
@@ -52,9 +34,9 @@
 				</header>
 				
 				<form>
-				<input type="text" id="textfield" />
-				<input type="button" value="save" onclick="save()" />
-				<input type="button" value="remove" onclick="remove()" />
+				<input type="text" id="textfield" placeholder="Favourite game?"/>
+				<input type="button" value="Save" onclick="save()" />
+				<input type="button" value="Remove" onclick="remove()" />
 				</form>
 				
 			</article>
@@ -64,5 +46,23 @@
 	<footer class="mainFooterAbout">
 	<p>Created by Yaseen Fulat, P15194471, 2017</p>
 	</footer>
+	<script>
+	function save() {
+	let fieldValue = document.getElementById('textfield').value;
+	localStorage.setItem('text', fieldValue);
+	}
+	
+	function load() {
+	let storedValue = localStorage.getItem('text');
+	if (storedValue) {
+	document.getElementById('textfield').value = storedValue;
+	}
+	}
+	
+	function remove() {
+	document.getElementById('textfield').value = ' ';
+	localStorage.removeItem('text');
+	}
+	</script>
 </body>
 </html>
