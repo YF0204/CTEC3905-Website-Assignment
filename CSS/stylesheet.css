@@ -242,6 +242,25 @@ figcaption {
 	text-align: center;
 }
 
+#user-name{
+	width: 500px;
+}
+
+iframe {
+	display: block;
+	margin: auto;
+	height: 300px;
+	width: 500px;
+}
+
+div.Slideshow1 {
+	margin: auto;
+}
+
+div.Slideshow2 {
+	margin: auto;
+}
+
 /* Responsive design media queries */
 
 @media only screen and (min-width: 150px) and (max-width: 700px)
@@ -298,6 +317,11 @@ figcaption {
 	width: 85%;
 	margin: 2% 0 3% 5%;
 	padding: 2% 3%;
+}
+
+iframe {
+	height: 300px;
+	width: 300px;
 }
 
 }
