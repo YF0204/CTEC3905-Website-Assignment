@@ -1,3 +1,6 @@
+/* stylesheet code - works for all pages /*
+/* body styling */
+
 body {
 	font-size: 90%;
 	font-family: Helvetica, Calibri, Arial;
@@ -13,11 +16,15 @@ body {
 	clear: both;
 }
 
+/* Sega logo in the header of every page */
+
 .mainHeader img {
 	width: 20%;
 	height: auto;
 	margin: 2% 0;
 }
+
+/* styling for navigation bar which is on every page */
 
 .mainHeader nav {
 	background-color: #475eb8;
@@ -55,7 +62,7 @@ a {
 
 .mainHeader nav ul lia a {
 	border-radius: 5px;
-	-moz-border-radius: 5px;
+	-moz-border-radius: 5px; /* applies to other browsers such as firefox */
 	-webkit-border-radius: 5px;
 }
 
@@ -69,6 +76,8 @@ a {
 .mainContent img {
 	width: 85%;
 }
+
+/* styling for div tags */
 
 .BackgroundInfo {
 	background-color: white;
@@ -132,6 +141,8 @@ a {
 	margin-top: 2%;
 }
 
+/* sidebar on the index page */
+
 .sidebarRight {
 	width: 20%;
 	float: left;
@@ -142,6 +153,8 @@ a {
 	margin: 1.5% 0 2% 3%;
 	padding: 2% 3%;
 }
+
+/* footer styling */
 
 .mainFooterhome {
 	width: 100%;
@@ -175,6 +188,8 @@ a {
 	color: white;
 }
 
+/* ryu image/animation position */
+
 .ryu {
 	position: relative;
 	float: right;
@@ -185,10 +200,14 @@ a {
 	animation-iteration-count: infinite;
 }
 
+/* animation that moves ryu vertically */
+
 @keyframes uppercut{
 	from{transform:translateX(0)}
 	to{transform:translateY(-700px)}
 }
+
+/* various styles for images */
 
 #HQ{
 	width: 30%;
@@ -238,13 +257,23 @@ a {
 	height: auto;
 }
 
-figcaption {
-	text-align: center;
-}
-
 #user-name{
 	width: 500px;
 }
+
+#WW2Caption {
+	text-align: center;
+}
+
+#HZDCaption {
+	text-align: center;
+}
+
+#TekkenCaption {
+	text-align: center;
+}
+
+/* video styling on hottest games pages */
 
 iframe {
 	display: block;
@@ -253,15 +282,27 @@ iframe {
 	width: 500px;
 }
 
+/* slideshow styling on about me page */
+
 div.Slideshow1 {
+	max-width:500px;
 	margin: auto;
 }
 
 div.Slideshow2 {
+	max-width:500px;
 	margin: auto;
 }
 
-/* Responsive design media queries */
+.mySlides {
+	width: 100%;
+}
+
+.Slides {
+	width: 100%;
+}
+
+/* Responsive design media queries - the following elements move accordingly within these breakpoints */
 
 @media only screen and (min-width: 150px) and (max-width: 700px)
 {
@@ -322,6 +363,10 @@ div.Slideshow2 {
 iframe {
 	height: 300px;
 	width: 300px;
+}
+
+.ryu {
+	animation-duration: 0s;
 }
 
 }

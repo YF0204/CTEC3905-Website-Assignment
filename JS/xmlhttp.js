@@ -1,13 +1,13 @@
 "use strict";
 
 (function(){
-  // creates a new object called xhr
-  // which will handle the API call
+  // creates a new object called xhr which will handle the API
   let xhr = new XMLHttpRequest();
-  // console.log(`Current readyState: ${xhr.readyState}`);
-
+  // var for query
   let queryBox = document.getElementById("wikiQuery");
+  // var for search form
   let searchForm = document.getElementById("searchForm");
+  // var for ul - demo
   let demoJSON = document.getElementById("demo");
 
   // constructs the base for the request url

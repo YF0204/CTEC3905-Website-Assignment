@@ -1,39 +1,39 @@
 (function(){
 
-  //let myName = document.getElementById("my-name"); 
+  // store items in variables
   let getName = document.getElementById("get-name");
   let userName = document.getElementById("user-name"); 
   let nameStored = localStorage.name;
 
-  // Displays the name in the console at this stage:
+  // display the text in the console log
   console.log(`Name on page load: ${nameStored}`);
   
   if(nameStored) {
-    // If there's a name in localStorage, use it:
+    // if there's text in localstorage, display it with the following words - Your Profile
     userName.value = `Your Profile: ${nameStored}`;
     console.log(`Name stored is: ${nameStored}`);
   }
   else {
-    // There's no name in localStorage:
+    // if there's nothing in localstorage
     userName.value = "Enter here";
-    console.log(`No name stored`);
+    console.log(`No info stored`);
   }
 
-  function PerformGreeting() {
+  function Save() {
     if(userName.value === "") {
-      alert("Please enter a name");
+      alert("Please enter your details");
       userName.focus();
     }
-    // Gets the name the user entered:
+    // get the text the user has entered
     nameStored = userName.value;
     
-    // Shows the name in "my-name":
+    // display the info in textbox
     userName.value = nameStored;
     
-    // Puts the name into localStorage:
+    // put the info into localStorage:
     localStorage.name = nameStored;
     
-    // Displays the name in the console at the final stage:
+    // displays the info in the console at the final stage:
     console.log(`New name stored: ${nameStored}`);
     
     return false;
@@ -42,20 +42,19 @@
   function clearData() {
     console.log(`before clear: ${localStorage.name}`);
 
-    // Clears all Local Storage data:
+    // Clear all localStorage data:
     localStorage.clear();
 
-    // Clears one key-value pair, in this case 'name':
     // delete localStorage.name;
     console.log(`after clear: ${localStorage.name}`);
   }
 
   // Listens for a form submit action: 
   if (typeof event === "undefined") {
-    getName.onsubmit = PerformGreeting; // for Firefox
+    getName.onsubmit = Save; // for Firefox
   }
   else {
-    getName.addEventListener("submit", PerformGreeting);
+    getName.addEventListener("submit", Save);
     event.preventDefault();
   }
   // Chrome/IE only

@@ -1,3 +1,5 @@
+// displays review scores in p tag elements when user clicks button
+
 document.getElementById("WW2Btn").addEventListener("click", function(){
     document.getElementById("WW2Score").innerHTML = "8/10 - Great!";
 });
