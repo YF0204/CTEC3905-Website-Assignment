@@ -15,7 +15,7 @@
   }
   else {
     // There's no name in localStorage:
-    userName.value = "Enter profile here";
+    userName.value = "Enter here";
     console.log(`No name stored`);
   }
 
