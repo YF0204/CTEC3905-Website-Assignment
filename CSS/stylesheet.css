@@ -304,7 +304,7 @@ div.Slideshow2 {
 
 /* Responsive design media queries - the following elements move accordingly within these breakpoints */
 
-@media only screen and (min-width: 150px) and (max-width: 700px)
+@media only screen and (min-width: 150px) and (max-width: 790px)
 {
 	.body {
 	width: 90%;
@@ -361,12 +361,20 @@ div.Slideshow2 {
 }
 
 iframe {
-	height: 300px;
-	width: 300px;
+	height: 250px;
+	width: 250px;
 }
 
 .ryu {
-	animation-duration: 0s;
+	display: none;
+}
+
+.mainFooterhome {
+	margin-top: 0%;
+}
+
+#user-name{
+	width: 250px;
 }
 
 }
