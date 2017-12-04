@@ -35,6 +35,9 @@
     
     // displays the info in the console at the final stage:
     console.log(`New name stored: ${nameStored}`);
+	
+	// alert user when data is saved
+	alert("Your profile has been saved");
     
     return false;
   }
@@ -47,6 +50,9 @@
 
     // delete localStorage.name;
     console.log(`after clear: ${localStorage.name}`);
+	
+	// alert user when data is cleared
+	alert("Your profile has been deleted");
   }
 
   // Listens for a form submit action: 

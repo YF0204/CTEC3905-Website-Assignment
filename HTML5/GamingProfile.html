@@ -9,7 +9,7 @@
 </head>
 
 <body class="body">
-
+<!--Header contains logo and navigation links-->
 <header class="mainHeader">
 	<img src="../WebIMG/Sega-Logo.png" alt="SegaLogo">
 	
@@ -23,7 +23,7 @@
 		</ul>
 	</nav>
 	</header>
-	
+<!--Content divided into articles-->
 <div class="AboutMeContent">
 		<div class="AboutMeInfo">
 			<article class="BackgroundInfo">
@@ -33,6 +33,7 @@
 					<h3>Type in your gaming background here, don't forget to save and update whenever you like.</h3>
 				</header>
 				
+				<!--Form works with localstorage to allow users to create/update a gaming profile, controlled by JS file linked below-->
 				<form id="get-name" action="#" method="post">
 				<label for="user-name">Favourite games or consoles?:</label>
 				<input type="text" id="user-name">
@@ -46,6 +47,7 @@
 	<footer class="mainFooterAbout">
 	<p>Created by Yaseen Fulat, P15194471, 2017</p>
 	</footer>
+	<!--Localstorage script-->
 	<script src="../JS/localstorage.js"></script>
 </body>
 </html>

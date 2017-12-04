@@ -9,7 +9,7 @@
 </head>
 
 <body class="body">
-
+<!--Header contains logo and navigation links-->
 <header class="mainHeader">
 	<img src="../WebIMG/Sega-Logo.png" alt="SegaLogo">
 	
@@ -23,7 +23,8 @@
 		</ul>
 	</nav>
 	</header>
-	
+
+<!--Content divided into articles-->
 <div class="AboutMeContent">
 		<div class="AboutMeInfo">
 			<article class="BackgroundInfo">
@@ -40,6 +41,7 @@
 				Loot supplies, find weapons and gear-up to take on the competition in a solo or team squad match. 
 				Emerge the lone survivor in a thrilling game experience full of unexpected, adrenaline-pumping moments.</p>
 				
+				<!--iFrame tag allows YouTube video to be embedded into page-->
 				<iframe src="https://www.youtube.com/embed/SjKKbFe61GQ" allowfullscreen></iframe>
 			</article>
 			
@@ -58,6 +60,7 @@
 				Powered by a new fight philosophy, Assassin's Creed Origins embraces a brand new RPG direction where players level up, loot, 
 				and choose abilities to shape and customize their very own skilled Assassin as they grow in power and expertise while exploring the entire country of Ancient Egypt.</p>
 				
+				<!--iFrame tag allows YouTube video to be embedded into page-->
 				<iframe src="https://www.youtube.com/embed/9fZTbPZuRJU" allowfullscreen></iframe>
 			</article>
 			
@@ -77,18 +80,22 @@
 				When your arrival incites the cult to violently seize control of the region, you must rise up and spark the fires of resistance to liberate a besieged community.
 				Freely explore Hope County’s rivers, lands, and skies with the largest customizable weapon and vehicle roster ever in a Far Cry game.</p>
 				
+				<!--iFrame tag allows YouTube video to be embedded into page-->
 				<iframe src="https://www.youtube.com/embed/g3FvMB1Dfu0" allowfullscreen></iframe>
 			</article>
 			
+			<!--Wikipedia API allows users to search for games which are displayed in the space below-->
 			<form id="searchForm">
-			<h2>Search for games here</h2>
+			<h2>Looking for a game or console? Search here</h2>
 			<label for="wikiQuery">Search Wikipedia for:</label>
 			<input id="wikiQuery" type="text" placeholder="Video Games">
 			<input type="submit">
 			</form>
 			
 			<h2>Wikipedia Search Results:</h2>
+			<!--Search results displayed here-->
 			<ul id="demo"></ul>
+			<!--This script file contains Wikipedia API-->
 			<script src="../JS/xmlhttp.js"></script>	
 		</div>
 	</div>

@@ -163,7 +163,7 @@ a {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	background-color: #475eb8;
-	margin-top: -20%;
+	margin-top: -30%;
 }
 
 .mainFooterhome p {
@@ -375,6 +375,51 @@ iframe {
 
 #user-name{
 	width: 250px;
+}
+
+#HQ{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#War{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#Zombies{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#Story{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#Alloy{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#Bird{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#VersusMode{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#TekkenLogo{
+	width: 80%;
+	margin-left: 10%;
+}
+
+#HWR{
+	width: 80%;
+	margin-left: 10%;
 }
 
 }
