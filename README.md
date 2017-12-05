@@ -8,7 +8,7 @@ For this assignment, I will be building a semantic HTML5, CSS and JavaScript web
 
 ### Starting Off - Initial Ideas
 
-**Webpages, layout and structure**
+### Webpages, layout and structure
 * Five webpages - Index (Homepage), Hottest Games (Best games available), Reviews (Review of games), About Me (A page about myself) and a gaming profile (Users can enter and save their gaming background).
 * Target Audience - Gamers or people who are interested in taking up gaming as a hobby.
 * Colours - Grey background, black font and blue footers.
@@ -75,7 +75,7 @@ I created rough webpages to get an idea of what the final product will look like
 **My Reviews** - My own reviews on recently launched games.
 ![reviewscapture](https://user-images.githubusercontent.com/23192621/32460953-51ee14e6-c32c-11e7-920e-b83b0c6d7ece.PNG)
 
-**Contact Form** - A user input form coded by JS where people can send messages, feedback etc. (This page changed into a Gaming Profile)
+**Gaming Profile** - A user input form coded by JS where people can create and update a gaming profile.
 ![contactformcapture](https://user-images.githubusercontent.com/23192621/32461004-69875414-c32c-11e7-81d5-65f4c37cda18.PNG)
 
 ### Navigation Diagram
