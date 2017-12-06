@@ -1,8 +1,11 @@
+# CTEC3905 Practical Project Assignment
+Created by Yaseen Fulat, P15194471
+
 # Project Summary
 For this assignment, I will be building a semantic HTML5, CSS and JavaScript website with a responsive design. I have decided to make the website based on video gaming as it is one of my greatest passions. From this module, I have learnt that when you are creating a website you must conform to information architecture standards. This means that websites should help users effortlessly find information and complete tasks, in order to create a high level of usability. During this assignment, I plan to achieve something along those lines. Below you will find my development process, along with any issues I faced & resolved and final thoughts.  
 
+## Development Process
 
-=======
 ### Starting Off - Initial Ideas
 
 ### Webpages, layout and structure
@@ -54,6 +57,10 @@ Here are some early sketches I did of the website. These sketches include what t
 **Desktop PC**
 ![pc wireframe](https://user-images.githubusercontent.com/23192621/33622600-33c7f128-d9e6-11e7-8691-54747928a5a3.jpg)
 
+### Prototype
+
+I created rough webpages to get an idea of what the final product will look like. Below you can see some examples:
+
 **Homepage** - A standard homepage which will contain latest news & events and trending news displayed in a slideshow controlled by JS.
 
 ![homepagecapture](https://user-images.githubusercontent.com/23192621/32460797-cdd99d42-c32b-11e7-9bc2-b6c5a17b7537.PNG)
@@ -62,10 +69,20 @@ Here are some early sketches I did of the website. These sketches include what t
 
 ![aboutmecapture](https://user-images.githubusercontent.com/23192621/32460875-1330749c-c32c-11e7-807b-dd5818ff6376.PNG)
 
+**Hottest Games** - List of most wanted games.
+![hottestgamescapture](https://user-images.githubusercontent.com/23192621/32460920-34f50b60-c32c-11e7-8c86-a1e482a78266.PNG)
+
+**My Reviews** - My own reviews on recently launched games.
+![reviewscapture](https://user-images.githubusercontent.com/23192621/32460953-51ee14e6-c32c-11e7-920e-b83b0c6d7ece.PNG)
+
 **Gaming Profile** - A user input form coded by JS where people can create and update a gaming profile.
 ![contactformcapture](https://user-images.githubusercontent.com/23192621/32461004-69875414-c32c-11e7-81d5-65f4c37cda18.PNG)
 
-=======
+### Navigation Diagram
+![navigation model](https://user-images.githubusercontent.com/23192621/32438452-715070ee-c2e2-11e7-81bf-63d6910497d2.PNG)
+
+This is a full navigation model, which I will use as the basis of my website. With this type of structure, users can navigate from page to page with ease and find information efficiently. 
+
 ### References and adaptation explanations
 * Simple HTML5 LocalStorage Example by Olympsys - https://www.youtube.com/watch?v=Jc_Yycz7MEc
 
